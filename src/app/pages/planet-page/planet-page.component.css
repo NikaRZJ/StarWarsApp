@@ -1,0 +1,54 @@
+.single-planet {
+    color: #fffb00;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px 20px;
+    text-align: center;
+    background-color: #1a1a1a;
+    font-family: monospace;
+    border: 3px solid #fffb00;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+.planet-card-info {
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.resident-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #292A2B !important;
+    justify-content: space-around;
+    max-width: 1200px;
+    width: 100%;
+    margin: 50px auto;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+.btns-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+    width: 100%;
+    background-color: #292A2B;
+    max-width: 600px;
+    border-radius:20px;
+    padding: 20px;
+}
+
+.btn-filter {
+    color: #fffb00;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-width: 2px;
+    border-radius: 20px;
+    background-color: #1a1a1a;
+}

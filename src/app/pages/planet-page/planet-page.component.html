@@ -1,0 +1,41 @@
+<h2 class="font-bold mb-2 text-center text-[100px] text-white">{{planet.name | titlecase}}</h2>
+
+<div class="single-planet">
+  <ul class="planet-card-info">
+    <li>
+      Rotation period: {{planet.rotation_period}}
+    </li>
+    <li>
+      Orbital period: {{planet.orbital_period}}
+    </li>
+    <li>
+      Diameter: {{planet.diameter}}
+    </li>
+    <li>
+      Climate: {{planet.climate}}
+    </li>
+    <li>
+      Gravity: {{planet.gravity}}
+    </li>
+    <li>
+      Terrain: {{planet.terrain}}
+    </li>
+    <li>
+      Surface Water: {{planet.surface_water}}
+    </li>
+    <li>
+      Population: {{planet.population}}
+    </li>
+  </ul>
+</div>
+
+<div class="btns-container">
+  <button class="btn-filter" (click)="onAll()">All</button>
+  <button class="btn-filter" (click)="onMale()">Male</button>
+  <button class="btn-filter" (click)="onFemale()">Female</button>
+</div>
+
+<div class="resident-container">
+  <app-resident *ngFor="let resident of viewResidents let i=index" [resident]="resident">
+  </app-resident>
+</div>

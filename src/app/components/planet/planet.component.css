@@ -1,0 +1,18 @@
+.planet-card {
+    color: #fffb00;
+    width: 350px;
+    height: 350px;
+    padding: 5px 20px;
+    background-color: #1a1a1a;
+    font-family: monospace;
+    border: 3px solid #fffb00;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.planet-card-info {
+    font-size: large;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,41 @@
+.planet-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #292A2B !important;
+    justify-content: space-around;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+#next {
+    right: 5%;
+}
+
+#prev {
+    left: 5%;
+}
+
+.btn {
+    position: fixed;
+    top: 50%;
+    color: #fffb00;
+    width: 200px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #1a1a1a;
+    font-family: monospace;
+    border: 3px solid #fffb00;
+    border-radius: 20px;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.show {
+    opacity: 1;
+}

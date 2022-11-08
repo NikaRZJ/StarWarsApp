@@ -1,0 +1,6 @@
+<h1 class="font-bold mb-2 text-center text-[100px] text-white">{{title | titlecase}}</h1>
+<div class="planet-container">
+  <app-planet *ngFor="let planet of planets.results let i=index" [planet]="planet"></app-planet>
+</div>
+<button id="next" class="btn" (click)="next()"> Next page &rarr;</button>
+<button id="prev" class="btn" (click)="prev()">&larr; Previous page</button>

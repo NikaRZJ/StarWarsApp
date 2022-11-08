@@ -1,0 +1,31 @@
+<div class="planet-card">
+  <h2 class="text-lg py-4 font-bold">{{planet.name}}</h2>
+  <ul class="planet-card-info">
+    <li>
+      Rotation period: {{planet.rotation_period}}
+    </li>
+    <li>
+      Orbital period: {{planet.orbital_period}}
+    </li>
+    <li>
+      Diameter: {{planet.diameter}}
+    </li>
+    <li>
+      Climate: {{planet.climate}}
+    </li>
+    <li>
+      Gravity: {{planet.gravity}}
+    </li>
+    <li>
+      Terrain: {{planet.terrain}}
+    </li>
+    <li>
+      Surface Water: {{planet.surface_water}}
+    </li>
+    <li>
+      Population: {{planet.population}}
+    </li>
+  </ul>
+  <button class="bg-[#fffb00] text-black text-lg p-2 rounded-lg mt-3 " [routerLink]="'/'+ planet.name"
+    [queryParams]="{'url': planet.url}">Details</button>
+</div>
